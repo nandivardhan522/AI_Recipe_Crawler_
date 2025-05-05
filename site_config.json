@@ -1,0 +1,13 @@
+{
+  "allrecipes.com": {
+    "title": "h1",
+    "ingredients": "ul.mm-recipes-structured-ingredients__list li.mm-recipes-structured-ingredients__list-item",
+    "ingredient_parts": {
+      "quantity": "span[data-ingredient-quantity]",
+      "unit": "span[data-ingredient-unit]",
+      "name": "span[data-ingredient-name]"
+    },
+    "instructions": "li[class*='mntl-sc-block-group--LI'] > p.mntl-sc-block-html",
+    "image": "div.img-placeholder img"
+  }
+}
