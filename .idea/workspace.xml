@@ -4,40 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca4eb15-ddac-42f9-b1c2-4083acd17323" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cooking_dataset.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/ingredient_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/page_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/selector_inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classifiers/recipe_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/site_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlers/crawl_site.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlers/image_downloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlers/recipe_scraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawlers/video_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractors/ai_selector_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractors/ingredient_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extractors/scrape_recipe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/crawler.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/clean_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/normalize_ingredients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preprocessing/resize_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/db_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/local_writer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/save.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/save_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/summary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/summary_dashboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate/image_matcher.py" afterDir="false" />
-    </list>
+    <list default="true" id="5ca4eb15-ddac-42f9-b1c2-4083acd17323" name="Changes" comment="Added AI classfier for the url type" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,29 +20,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nandivardhan522/AI_Recipe_Crawler_",
+    "accountId": "843b4c56-9347-4253-9863-d65a8f198fb8"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2wd2aVKQSLvN3ZuNxNVnxb0YHnX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.image_downloader.executor": "Run",
-    "Python.local_writer.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.recipe_scraper.executor": "Run",
-    "Python.summary_dashboard.executor": "Run",
-    "Python.video_extractor.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/nandivardhanbhumireddy/Documents/Person Docs/Projects/cooking_dataset/config",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.image_downloader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.local_writer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.recipe_scraper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.summary_dashboard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.video_extractor.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nandivardhanbhumireddy/Documents/Person Docs/Projects/cooking_dataset/config&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
@@ -97,6 +70,19 @@
       <option name="presentableId" value="Default" />
       <updated>1746357194029</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added AI classfier for the url type">
+      <option name="closed" value="true" />
+      <created>1746443070124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746443070124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added AI classfier for the url type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AI classfier for the url type" />
   </component>
 </project>
